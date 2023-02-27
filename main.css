@@ -1,0 +1,168 @@
+html {
+    background-image: url('src/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body {
+    margin: 0;
+}
+
+.opacity {
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    height: 4000px;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #F2A600;
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    color: #9E3B1B;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 16.66%;
+}
+
+.topnav a:hover {
+    background-color: #FCF7E6;
+    color: #AB3B5C;
+}
+
+.topnav a.active {
+    background-color: #FCF7E6;
+    color: #AB3B5C;
+}
+
+.jackpot {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.jp2 {
+    margin-top: -115px;
+}
+
+.jp3 {
+    margin-top: -100px;
+}
+
+.jp4 {
+    margin-top: -196px;
+    margin-left: 700px;
+}
+
+.jp5 {
+    margin-top: -184px;
+    margin-left: -700px;
+}
+
+.step {
+    text-align: center;
+}
+
+.gameList {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.gameListWord {
+    margin-top: -15px;
+}
+
+.horizontalLine {
+    border: white 1px solid;
+    width: 570px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gameButton1 {
+    margin-top: -1400px;
+    margin-left: -720px;
+}
+
+.gameButton2 {
+    margin-top: -40px;
+}
+
+.gameButton3 {
+    margin-top: -39px;
+    margin-left: 720px;
+}
+
+.gameButton4 {
+    margin-top: 310px;
+    margin-left: -720px;
+}
+
+.gameButton5 {
+    margin-top: -40px;
+}
+
+.gameButton6 {
+    margin-top: -39px;
+    margin-left: 720px;
+}
+
+.gameButton7 {
+    margin-top: 320px;
+    margin-left: -720px;
+}
+
+.gameButton8 {
+    margin-top: -40px;
+}
+
+.gameButton9 {
+    margin-top: -39px;
+    margin-left: 720px;
+}
+
+.gameButton10 {
+    margin-top: 310px;
+    margin-left: -720px;
+}
+
+.gameButton11 {
+    margin-top: -40px;
+}
+
+.gameButton12 {
+    margin-top: -39px;
+    margin-left: 720px;
+}
+
+.gameButton13 {
+    margin-top: 320px;
+    margin-left: -720px;
+}
+
+.gameButton14 {
+    margin-top: -40px;
+}
+
+.about {
+    margin: 40px 20px;
+    text-align: justify;
+}
+
+.benefitImg {
+    width: 100%; 
+    height: 164px;
+}
