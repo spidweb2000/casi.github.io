@@ -4,6 +4,7 @@ html {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 body {
@@ -53,22 +54,42 @@ body {
     margin-bottom: 50px;
 }
 
+.jp1 img {
+    width: 73%;
+}
+
+.jp2 img {
+    width: 64%;
+}
+
+.jp3 img {
+    width: 54%;
+}
+
+.jp4 img{
+    width: 100%;
+}
+
+.jp5 img {
+    width: 14.5%;
+}
+
 .jp2 {
-    margin-top: -115px;
+    margin-top: -12.3%;
 }
 
 .jp3 {
-    margin-top: -100px;
+    margin-top: -14.2%;
 }
 
 .jp4 {
-    margin-top: -196px;
-    margin-left: 700px;
+    margin-top: -26.6%;
+    margin-left: 76%;
 }
 
 .jp5 {
-    margin-top: -184px;
-    margin-left: -700px;
+    margin-top: -23.4%;
+    margin-left: -72%;
 }
 
 .step {
@@ -78,6 +99,27 @@ body {
 .gameList {
     text-align: center;
     margin-top: 50px;
+}
+
+div.gallery img {
+    width: 80%;
+    height: auto;
+}
+
+.responsive {
+    padding: 10px;
+    float: left;
+    width: 30%;
+}
+
+.responsive a img {
+    margin-top: 10px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .gameListWord {
@@ -92,77 +134,12 @@ body {
     margin-right: auto;
 }
 
-.gameButton1 {
-    margin-top: -1400px;
-    margin-left: -720px;
-}
-
-.gameButton2 {
-    margin-top: -40px;
-}
-
-.gameButton3 {
-    margin-top: -39px;
-    margin-left: 720px;
-}
-
-.gameButton4 {
-    margin-top: 310px;
-    margin-left: -720px;
-}
-
-.gameButton5 {
-    margin-top: -40px;
-}
-
-.gameButton6 {
-    margin-top: -39px;
-    margin-left: 720px;
-}
-
-.gameButton7 {
-    margin-top: 320px;
-    margin-left: -720px;
-}
-
-.gameButton8 {
-    margin-top: -40px;
-}
-
-.gameButton9 {
-    margin-top: -39px;
-    margin-left: 720px;
-}
-
-.gameButton10 {
-    margin-top: 310px;
-    margin-left: -720px;
-}
-
-.gameButton11 {
-    margin-top: -40px;
-}
-
-.gameButton12 {
-    margin-top: -39px;
-    margin-left: 720px;
-}
-
-.gameButton13 {
-    margin-top: 320px;
-    margin-left: -720px;
-}
-
-.gameButton14 {
-    margin-top: -40px;
-}
-
 .about {
     margin: 40px 20px;
     text-align: justify;
 }
 
 .benefitImg {
-    width: 100%; 
+    width: 100%;
     height: 164px;
 }
