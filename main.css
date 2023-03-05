@@ -20,6 +20,53 @@ body {
     opacity: 0.9;
 }
 
+.topDiv {
+    background-image: linear-gradient(0deg, #4d4855 0%, #000000 74%);
+    height: 140px;
+}
+
+.logo {
+    border-radius: 50%;
+    border: 2px white solid;
+    float: left;
+    width: 90px;
+    margin: 25px 25px 20px 8%;
+}
+
+.web {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: larger;
+    color: #F2A600;
+    float: left;
+    line-height: 101px;
+}
+
+.join {
+    padding: 10px 15px;
+    margin: 50px 10px;
+    float: right;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.login {
+    padding: 10px 15px;
+    margin: 50px 10px;
+    float: right;
+    color: #9E3B1B;
+    background-color: #F2A600;
+    border: 1px #9E3B1B solid;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.login:hover, .join:hover {
+    color: black;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #F2A600;
